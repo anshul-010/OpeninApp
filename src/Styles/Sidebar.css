@@ -1,0 +1,102 @@
+.sidebar {
+    height: 100vh;
+    width: 250px;
+    padding: 16px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    transition: left 0.3s ease, padding 0.3s ease; 
+    background-color: white;
+    /* border-radius: 0 30px 30px 0;
+    border-right: 1px solid #c5c5c5; */
+  }
+  
+  .sidebar.open {
+    left: 0;
+    padding: 16px; 
+  }
+  .sidebar h2 {
+    margin-bottom: 16px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    padding: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sidebar li:hover {
+    background-color: #555;
+  }
+  
+  .toggle-button {
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .cross-btn {
+    text-align: end;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 8px; 
+  }
+  
+  .content {
+    margin-left: 0;
+    transition: margin-left 0.3s ease;
+  }
+
+  
+  .side-list>p{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #555555db;
+    font-weight: 500;
+    font-size: large;
+    margin: 25px 0;
+  }
+  
+  .side-list>p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  @media (min-width: 768px) {
+    .sidebar {
+      left: 0;
+    }
+  
+    
+    .toggle-button{
+        display: none;
+    }
+
+}
+
+@media (max-width: 768px){
+      .sidebar {
+          height: 100vh;
+          width: 250px;
+          padding: 16px;
+          box-sizing: border-box;
+          position: fixed;
+          top: 0;
+          left: -250px;
+          transition: left 0.3s ease, padding 0.3s ease; 
+          background-color: white;
+          
+          border-radius: 0 30px 30px 0;
+          border-right: 1px solid #c5c5c5;
+        }
+
+  }
