@@ -14,12 +14,12 @@ List the main features of your project.
 
 npm run dev
 
-### Prerequisites
 
-Outline any software, tools, or dependencies users need to install beforehand.
 
 ### Installation
 npm install 
 
-npm run dev
+
+![Project Logo](https://github.com/anshul-010/Man-Matters/assets/93611786/cafe7434-bd44-4c56-a0ee-30491373221b)
+
 
