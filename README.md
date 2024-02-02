@@ -1,8 +1,25 @@
-# React + Vite
+# OpeninApp
+DataTagger is a user-friendly web application that allows users to seamlessly upload and manage their data. With DataTagger, users can easily add tags to organize and categorize their data efficiently. The intuitive interface enables hassle-free tagging, and users can also delete tags as needed. Simplify your data management experience with DataTagger, making it straightforward to organize and access your information effortlessly.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
 
-Currently, two official plugins are available:
+List the main features of your project.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- SignIn
+- Upload file data
+- Add tags and delete them
+- ...
+
+## Getting Started
+
+npm run dev
+
+### Prerequisites
+
+Outline any software, tools, or dependencies users need to install beforehand.
+
+### Installation
+npm install 
+
+npm run dev
+
