@@ -1,5 +1,6 @@
 import React from 'react'
 import "../Styles/Table.css"
+import { TableRows } from './TableRows'
 export const Table = () => {
     let data = [
         {sno:"01",links:"www.google.com",prefix:"prefixSample",tag:"tag1"},
@@ -10,24 +11,16 @@ export const Table = () => {
         {sno:"06",links:"www.google.com",prefix:"prefixSample",tag:"tag1"},
     ]
   return (
-    <div id='table-container'>
+    <div id='table-container' style={{ overflowX: 'auto' }}>
         <div className='top-head'>
-            <p>S No.</p>
+            <p style={{width:"50px"}}>S No.</p>
             <p>Links</p>
             <p>Prefix</p>
             <p>Add Tags</p>
-            <p>Selected Tag</p>
+            <p style={{width:"250px"}}>Selected Tag</p>
         </div>
         <div>
-            {data?.map((ele,i)=>{
-                return <div className='lists' key={i}>
-                    <p>{ele.sno}</p>
-                    <p className='t-links'>{ele.links}</p>
-                    <p>{ele.prefix}</p>
-                    <p>{ele.tag}</p>
-                    <p>1</p>
-                </div>
-            })}
+            {data?.map((ele,i)=><TableRows ele={ele} i={i} />)}
         </div>
         
     </div>
